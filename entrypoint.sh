@@ -1,18 +1,13 @@
 #!/bin/sh
 
-cd /frpc
+cd /frps
 
-cat <<-EOF > /frpc/frpc.ini
+cat <<-EOF > /frps/frps.ini
 [common]
 token=${token}
-server_addr = ${server}
-server_port = ${port}
-
-[http_hero]
-type = tcp
-remote_port = 6060
-plugin = http_proxy
+bind_port = ${port}
+bind_udp_port = ${port}
 
 EOF
 
-/frpc/frpc -c /frpc/frpc.ini
+/frps/frps -c /frps/frps.ini
