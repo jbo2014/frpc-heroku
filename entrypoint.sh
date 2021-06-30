@@ -4,7 +4,6 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-token=${token}
 bind_port = ${port}
 
 EOF
