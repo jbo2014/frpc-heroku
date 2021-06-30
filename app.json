@@ -7,7 +7,7 @@
   "env": {
 	  "token": {
 		  "description": "frp server token",
-		  "value": "12345"
+		  "value": "123@qwe!"
 	  },
 	  "server": {
 		  "description": "frp server ip",
@@ -15,9 +15,9 @@
 	  },
 	  "port": {
 		  "description": "frp server port",
-		  "value": 7000
+		  "value": 10000
 	  }
   },
-  "repository": "https://github.com/KeithSu/frpc-heroku",
+  "repository": "https://github.com/jbo2014/frpc-heroku",
   "stack": "container"
 }
