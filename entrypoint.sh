@@ -4,7 +4,8 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-bind_port = ${port}
+bind_port = ${bind_port}
+vhost_http_port = ${vhost_http_port}
 
 EOF
 
