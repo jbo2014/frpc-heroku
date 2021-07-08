@@ -9,9 +9,13 @@
 		  "description": "frp server ip",
 		  "value": "www.xxx.com"
 	  },
-	  "port": {
+	  "bind_port": {
 		  "description": "frp server port",
 		  "value": 10000
+	  },
+	  "vhost_http_port": {
+		  "description": "http server port",
+		  "value": 20000
 	  }
   },
   "repository": "https://github.com/jbo2014/frpc-heroku",
